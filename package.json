@@ -1,0 +1,16 @@
+{
+  "name": "blockchain-in-node",
+  "version": "1.0.0",
+  "description": "Simple Cryptocurrency Blockchain In Node.js",
+  "main": "CryptoBlock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yuval",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "crypto-js": "^4.2.0"
+  }
+}
