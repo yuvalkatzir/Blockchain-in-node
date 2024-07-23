@@ -1,7 +1,7 @@
 const CryptoBlockchain = require('./CryptoBlockchain');
 
-// Initialize the blockchain with a default difficulty of 2
-let cometCoin = new CryptoBlockchain(1);
+// Initialize the blockchain with a default difficulty of 4
+let cometCoin = new CryptoBlockchain(4);
 
 // Add new blocks to the blockchain
 cometCoin.addNewBlock({ sender: "Yuval", recipient: "Tamir", quantity: 4 });
