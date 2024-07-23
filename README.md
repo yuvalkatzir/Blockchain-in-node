@@ -1,29 +1,33 @@
-## Summary
+# Simpler Blockchain Implementation in Node.js
 
-**Project Title**: Simple Cryptocurrency Blockchain In Node.js
+## Overview
 
-**Overview**:
-This project provides a simplified blockchain implementation in JavaScript, designed for educational purposes and basic understanding of blockchain principles. It features an easy-to-understand proof-of-work (PoW) algorithm with a lower difficulty level for quick testing.
+This project features a simpler implementation of a blockchain in JavaScript, designed for easier testing and educational purposes. It includes a basic proof-of-work (PoW) mechanism with a lower difficulty level. For a more advanced implementation with realistic PoW and higher difficulty levels, please refer to the [advanced branch](https://github.com/yuvalkatzir/Blockchain-in-node/tree/main).
 
-**Features**:
-- **Block Creation**: Includes basic block elements such as index, timestamp, data, and preceding hash.
-- **Hashing**: Utilizes SHA-256 for block hashing.
-- **Proof-of-Work**: Implements a straightforward PoW algorithm using leading zeros.
-- **Difficulty Adjustment**: Default difficulty set for ease of testing and demonstration.
+## Features
 
-**Implementation Details**:
-- **Hash Computation**: Uses SHA-256 hashing with a nonce for PoW.
-- **Mining Algorithm**: Simplified PoW using a leading zeros approach to validate blocks.
-- **Chain Validation**: Verifies the blockchain’s integrity by checking hashes and preceding hashes.
+- **Block Creation**: Includes index, timestamp, data, and preceding block hash.
+- **Hashing**: Utilizes SHA-256 for hashing.
+- **Proof-of-Work**: Implements a basic PoW algorithm with leading zeros for simplicity.
+- **Difficulty Adjustment**: Uses a lower difficulty level for easier testing.
 
-**Usage**:
-1. **Initialization**: Instantiate `CryptoBlockchain`.
-2. **Add Blocks**: Use `addNewBlock` to add and mine new blocks.
-3. **Check Validity**: Ensure blockchain integrity with `checkChainValidity`.
+## Implementation Details
 
-**Future Enhancements**:
-- **Transition to Advanced PoW**: Consider integrating more complex PoW methods.
-- **Performance Tuning**: Explore optimization techniques for mining and blockchain operations.
+- **Hash Computation**: Uses SHA-256 for hash generation with a nonce for PoW.
+- **Mining Algorithm**: Employs a straightforward PoW method with a fixed number of leading zeros.
+- **Chain Validation**: Ensures blockchain integrity by verifying hashes and preceding hashes.
 
-**Conclusion**:
-This simplified version offers a basic introduction to blockchain technology and serves as a foundation for further development and exploration of more advanced blockchain concepts.
+## Usage
+
+1. **Initialization**: Create an instance of `CryptoBlockchain`.
+2. **Add Blocks**: Add and mine blocks using the `addNewBlock` method.
+3. **Check Validity**: Verify blockchain integrity with the `checkChainValidity` method.
+
+## Future Enhancements
+
+- **Optimization**: Improve mining efficiency and performance.
+- **Feature Expansion**: Explore more advanced blockchain features and integrations.
+
+## Conclusion
+
+This simpler version provides an easy-to-understand demonstration of blockchain technology, ideal for educational purposes and initial testing. For a more sophisticated version, see the [advanced branch](https://github.com/yuvalkatzir/Blockchain-in-node/tree/main).
